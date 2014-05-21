@@ -26,8 +26,7 @@ setup(
     author_email='steve@stevelosh.com',
     description='A small Flask extension that adds LessCSS support to Flask.',
     long_description=__doc__,
-    packages=['flaskext'],
-    namespace_packages=['flaskext'],
+    packages=['flask_lesscss'],
     zip_safe=False,
     platforms='any',
     install_requires=[
