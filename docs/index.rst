@@ -37,7 +37,7 @@ Usage
 You can activate it by calling the ``lesscss`` function with your Flask app as
 a parameter::
 
-    from flaskext.lesscss import lesscss
+    from flask.ext.lesscss import lesscss
     lesscss(app)
 
 This will watch your app's static media directory and automatically render
@@ -49,7 +49,7 @@ A simple way to avoid this is wrapping the ``lesscss`` call in an ``if``
 statement::
 
     if app.debug:
-        from flaskext.lesscss import lesscss
+        from flask.ext.lesscss import lesscss
         lesscss(app)
 
 If you do this *you'll* be responsible for rendering the ``.less`` files into
